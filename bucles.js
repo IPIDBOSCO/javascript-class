@@ -39,3 +39,14 @@ for (var n = 0; n < 10; n --){
 do {
   console.log('Esto se ejecuta al menos una vez');
 } while (false);
+
+// for...in para iterar sobre las propiedades de un objeto
+var persona = {
+  nombre: 'Juan',
+  edad: 30,
+  ciudad: 'Madrid',
+};
+
+for (var clave in persona) {
+  console.log(clave + ': ' + persona[clave]);
+}
