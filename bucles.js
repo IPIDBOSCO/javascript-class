@@ -1,5 +1,6 @@
 var i = 0;
 
+// Bucle while que se ejecuta mientras i sea menor que 10
 while (i < 10) {
   console.log('El valor de i es: ' + i);
   i++; // Incrementa i en 1 en cada iteración
@@ -9,6 +10,7 @@ while (i < 10) {
 
 // for (;;){}
 
+// Bucle for que se ejecuta desde 0 hasta 9
 for (var j = 0; j < 10; j++) {
   console.log('El valor de j es: ' + j);
 }
