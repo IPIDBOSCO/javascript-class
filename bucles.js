@@ -35,3 +35,7 @@ for (var m = 0; ; m++) {
 for (var n = 0; n < 10; n --){
   console.log('El valor de n es: ' + n);}
 */
+
+do {
+  console.log('Esto se ejecuta al menos una vez');
+} while (false);
