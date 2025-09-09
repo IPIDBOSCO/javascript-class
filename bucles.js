@@ -36,9 +36,14 @@ for (var n = 0; n < 10; n --){
   console.log('El valor de n es: ' + n);}
 */
 
+// El do...while a diferencia del while, primero ejecuta y luego pregunta
 do {
   console.log('Esto se ejecuta al menos una vez');
 } while (false);
+
+while (false) {
+  console.log('Esto no se va a ejecutar');
+}
 
 // for...in para iterar sobre las propiedades de un objeto
 var persona = {
