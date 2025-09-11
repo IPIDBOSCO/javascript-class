@@ -32,4 +32,27 @@ const persona2 = {
 // Llamamos al método saludar del objeto persona2
 persona2.saludar();
 
-var objetos = 5;
+// Acceder a las propiedades y claves de un objeto
+const myObjeto = {
+  nombre: 'Cosa',
+  lugar: 'Casa',
+  propietario: 'Yo',
+  color: 'verde',
+};
+
+const keys = Object.keys(myObjeto);
+
+console.log('Claves del objecto: ', keys);
+
+console.log('El color es: ', myObjeto.color);
+console.log('El lugar es: ', myObjeto['lugar']);
+
+// Iterar las propiedades del objeto
+keys.forEach((key) => {
+  console.log(key + ': ' + myObjeto[key]);
+});
+
+console.log('Usando for..in');
+for (key in myObjeto) {
+  console.log(key + ': ' + myObjeto[key]);
+}
