@@ -1,5 +1,11 @@
 let arr = [1, 2, 3, 4, 5];
 
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
 console.log('Mi arreglo: ', arr);
 
 // Para acceder al primer valor, no se debe confundir con numeros normales
