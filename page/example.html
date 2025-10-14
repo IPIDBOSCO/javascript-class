@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+</head>
+
+<body>
+    <input type="number" id="number-1" value="0">
+    <input type="number" id="number-2" value="0">
+    <button id="addButton">Sumar</button>
+    <div id="result">Resultado: 0</div>
+
+    <script>
+        const num1 = document.getElementById('number-1');
+        const num2 = document.getElementById('number-2');
+
+        const addButton = document.getElementById('addButton');
+        const resultDiv = document.getElementById('result');
+
+        addButton.addEventListener('click', () => {
+            const result = Number(num1.value) + Number(num2.value);
+            resultDiv.innerHTML = 'Resultado: ' + result;
+        })
+    </script>
+</body>
+
+</html>
