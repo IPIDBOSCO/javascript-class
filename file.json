@@ -1,0 +1,17 @@
+{
+  "hola": "Esto es un JSON",
+  "numero": 123,
+  "booleano": true,
+  "arreglo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "objeto": {
+    "nombre": "Objeto",
+    "edad": 5
+  },
+  "nulo": null
+}

@@ -15,10 +15,16 @@ app.get('/about', (req, res) => {
   res.send('Aquí va el about');
 });
 
+const objeto = {
+  hola: 'Soy un objeto',
+  edad: 1,
+  obj: {
+    hijo: 'soy un objeto anidado',
+  },
+};
+
 app.get('/api/json', (req, res) => {
-  res.json({
-    hola: 'Esto es un JSON',
-  });
+  res.json(objeto);
 });
 
 app.get('/page', (req, res) => {
