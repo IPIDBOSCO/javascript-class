@@ -1,12 +1,12 @@
-import Database from 'better-sqlite3';
+import sqlite from 'sqlite3';
 
-const database = new Database('ejemplo.db');
+const database = new sqlite.Database('ejemplo.db');
 
 database.run(`
   CREATE TABLE IF NOT EXISTS users (
-  id INTERGER PRIMARY KEY AUTOINCREMENT,
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
-  age INTERGER
+  age INTEGER
   )  
 `);
 
