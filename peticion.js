@@ -11,3 +11,6 @@ try {
 } catch (error) {
   console.error(error);
 }
+
+/* const response = fetch('https://pokeapi.co/api/v2/pokemon/arceus');
+console.log(response); */
